@@ -13,4 +13,7 @@ basic.forever(function () {
     if (input.isGesture(Gesture.TiltLeft)) {
         radio.sendNumber(4)
     }
+    if (input.isGesture(Gesture.ScreenDown)) {
+        radio.sendNumber(5)
+    }
 })
